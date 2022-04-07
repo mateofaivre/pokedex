@@ -1,0 +1,168 @@
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-MediumIt.eot');
+	src: local('Flexo Medium Italic'), local('Flexo-MediumIt'),
+	url('~@/assets/fonts/Flexo-MediumIt.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-MediumIt.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-MediumIt.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Bold.eot');
+	src: local('Flexo Bold'), local('Flexo-Bold'),
+	url('~@/assets/fonts/Flexo-Bold.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Bold.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-It.eot');
+	src: local('Flexo Italic'), local('Flexo-It'),
+	url('~@/assets/fonts/Flexo-It.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-It.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-It.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-LightIt.eot');
+	src: local('Flexo Light Italic'), local('Flexo-LightIt'),
+	url('~@/assets/fonts/Flexo-LightIt.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-LightIt.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-DemiIt.eot');
+	src: local('Flexo Demi Italic'), local('Flexo-DemiIt'),
+	url('~@/assets/fonts/Flexo-DemiIt.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-DemiIt.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-DemiIt.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-BoldIt.eot');
+	src: local('Flexo Bold Italic'), local('Flexo-BoldIt'),
+	url('~@/assets/fonts/Flexo-BoldIt.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-BoldIt.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-BoldIt.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Demi.eot');
+	src: local('Flexo Demi'), local('Flexo-Demi'),
+	url('~@/assets/fonts/Flexo-Demi.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Demi.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Demi.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Light.eot');
+	src: local('Flexo Light'), local('Flexo-Light'),
+	url('~@/assets/fonts/Flexo-Light.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Light.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Heavy.eot');
+	src: local('Flexo Heavy'), local('Flexo-Heavy'),
+	url('~@/assets/fonts/Flexo-Heavy.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Heavy.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Heavy.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-ThinIt.eot');
+	src: local('Flexo Thin Italic'), local('Flexo-ThinIt'),
+	url('~@/assets/fonts/Flexo-ThinIt.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-ThinIt.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-ThinIt.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-HeavyIt.eot');
+	src: local('Flexo Heavy Italic'), local('Flexo-HeavyIt'),
+	url('~@/assets/fonts/Flexo-HeavyIt.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-HeavyIt.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-HeavyIt.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Regular.eot');
+	src: local('Flexo'), local('Flexo-Regular'),
+	url('~@/assets/fonts/Flexo-Regular.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Regular.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Medium.eot');
+	src: local('Flexo Medium'), local('Flexo-Medium'),
+	url('~@/assets/fonts/Flexo-Medium.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Medium.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Flexo';
+	src: url('~@/assets/fonts/Flexo-Thin.eot');
+	src: local('Flexo Thin'), local('Flexo-Thin'),
+	url('~@/assets/fonts/Flexo-Thin.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/Flexo-Thin.woff') format('woff'),
+	url('~@/assets/fonts/Flexo-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pokemon GB';
+	src: url('~@/assets/fonts/PokemonGB.eot');
+	src: local('PokemonGB'), local('PokemonGB'),
+	url('~@/assets/fonts/PokemonGB.eot?#iefix') format('embedded-opentype'),
+	url('~@/assets/fonts/PokemonGB.woff') format('woff'),
+	url('~@/assets/fonts/PokemonGB.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
