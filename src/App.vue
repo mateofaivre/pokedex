@@ -1,89 +1,115 @@
 <template>
-  <v-app>
-    <v-app-bar
-        app
-        color="primary"
-        dark
-    >
-      <router-link class="logo" to="/">
-        <img src="./assets/pokedex-logo.png" alt="">
-      </router-link>
+	<v-app>
+		<!--    <v-app-bar-->
+		<!--        app-->
+		<!--        color="primary"-->
+		<!--        dark-->
+		<!--    >-->
+		<!--    </v-app-bar>-->
+		<Header/>
 
-      <router-link class="menu__item" to="/">
-        Pokémons
-      </router-link>
-      <router-link class="menu__item" to="/pokedex/1">
-        Pokédex
-      </router-link>
-    </v-app-bar>
-
-    <v-main>
-      <router-view/>
-    </v-main>
-  </v-app>
+		<v-main>
+			<router-view/>
+		</v-main>
+	</v-app>
 </template>
 
 <script>
+import Header from './components/Header'
+
 
 export default {
-  name: 'App',
-
-  data: () => ( {
-    //
-  } ),
-  mounted() {
-  }
+	name:       'App',
+	components: {
+		Header
+	},
+	data:       () => ( {} ),
+	mounted() {
+	}
 };
 </script>
 
 <style lang="scss">
-.v-application {
-  font: normal 16px/25px $pokemonGB;
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 100px;
+}
+
+body {
+	.v-application {
+		&#app {
+			font: normal 16px $gt-eesti;
+			color: $white;
+		}
+
+	}
+
+	.v-main {
+		padding: 0;
+	}
+}
+
+.img-lazy {
+	transition: opacity 1s $easeInOutQuad;
+
+	&.img-loaded {
+		opacity: 1;
+	}
 }
 
 .logo {
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	font: 700 70px $voyage;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
 
-  img {
-    max-width: 35px;
-    max-height: 35px;
-    width: auto;
-    height: auto;
-  }
+	.logo--bottom {
+		font-weight: 350;
+		font-size: 17px;
+		font-family: $gt-eesti;
+		letter-spacing: 0.4em;
+		text-align: center;
+	}
 }
 
-.v-toolbar__content {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 14px;
-
-  .menu__item {
-    color: $white;
-    text-decoration: none;
-    padding: 20px 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.title--2 {
+	font: 700 60px/60px $voyage;
 }
 
-@media (max-width: $mobileMin) {
-  .logo {
-    margin-right: 15px;
-  }
-  .v-toolbar__content {
-    .menu__item {
-      margin-top: 5px;
-      font-size: 12px;
-      padding: 0px 10px;
-    }
-  }
-
+.title--3 {
+	font: 700 48px/48px $voyage;
 }
 
+.text {
+	font-size: 18px;
+	line-height: 30px;
+
+	a.text--link {
+		color: $gdn-pink;
+		transition: color .3s $transitionEase;
+
+		@media (min-width: $mobileMin) {
+			&:hover {
+				opacity: .7;
+			}
+		}
+
+	}
+}
+
+@media (max-width: $mobileMax) {
+	.title--2 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+
+
+	.title--3 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+}
 
 </style>

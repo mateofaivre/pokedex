@@ -1,12 +1,12 @@
 
 
-import Scroll from 'controllers/Scroll';
+import Scroll from '../controllers/Scroll';
 
 
 
 export default class Utils {
-	
-	
+
+
 	/**
 	 * Promise deferred object
 	 * ======================================================================
@@ -149,8 +149,8 @@ export default class Utils {
 			wrapper.appendChild(parent.firstChild);
 		}
 	}
-	
-	
+
+
 	/**
 	 * Find closest match in array
 	 * ======================================================================
@@ -167,8 +167,8 @@ export default class Utils {
 		}
 		return currentValue;
 	}
-	
-	
+
+
 	/**
 	 * Find closest match in array, returns index
 	 * ======================================================================
@@ -187,7 +187,7 @@ export default class Utils {
 		}
 		return currentIndex;
 	}
-	
-	
+
+
 }
 

@@ -1,5 +1,5 @@
 {
-  "name": "pokedex",
+  "name": "gordon-wedding",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "cash-dom": "^8.1.1",
     "core-js": "^3.6.5",
     "gsap": "^3.9.1",
+    "pixi.js": "^6.3.2",
     "split-type": "^0.2.5",
     "vue": "^2.6.11",
+    "vue-aware": "^0.2.7",
     "vue-router": "^3.2.0",
     "vuetify": "^2.4.0"
   },

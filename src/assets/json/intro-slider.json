@@ -1,0 +1,15 @@
+{
+	"imgs": [
+		"img-slider-1.jpeg",
+		"img-slider-2.jpeg",
+		"img-slider-3.jpeg"
+	],
+	"titles" : [
+		"Vidéaste de mariage",
+		"Immortaliser le bonheur",
+		"Votre film, unique"
+	],
+	"colors": [
+		"#D96E6F", "#FFFFFF", "#000000"
+	]
+}

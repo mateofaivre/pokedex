@@ -1,0 +1,16 @@
+{
+	"items": {
+		"title": [
+			"À propos",
+			"Réalisations",
+			"Tarifs",
+			"Contact"
+		],
+		"link": [
+			"#about",
+			"#realizations",
+			"#pricings",
+			"#contact"
+		]
+	}
+}

@@ -95,7 +95,7 @@ gsap.registerPlugin( ScrollTrigger )
 
 
 export default {
-	name:       "Contact",
+	name:       "Contact-old",
 	components: {
 		// HeadLeft, HeadRight
 	},

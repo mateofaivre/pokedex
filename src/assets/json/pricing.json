@@ -1,0 +1,48 @@
+{
+	"package": {
+		"name": [
+			"Wedding clip",
+			"Wedding film"
+		],
+		"duration": [
+			"4 à 6 min",
+			"8 à 12 min"
+		],
+		"presentation": [
+			"L'essentiel, un format court et efficace.",
+			"Le plus complet, pour combler toutes vos attentes."
+		],
+		"content": [
+			[
+				"Rushs",
+				"1 clé USB",
+				"15h de présence (10h - 01h)"
+			],
+			[
+				"Rushs",
+				"3 clés USB",
+				"17h de présence (09h - 02h)",
+				"Drone"
+			]
+		],
+		"price": [
+			"1000 €",
+			"1500 €"
+		]
+	},
+	"titles": {
+		"title": "Tarifs",
+		"subtitle": "Nos deux packages proposés vous permettent d'immortaliser ce jour en fonction de vos envies. À cela, différentes options peuvent venir s’ajouter afin de garantir un reportage à votre image. Pour toute demande particulière, n'hésitez pas à nous <a href=#contact class='text--link'>contacter</a>."
+	},
+	"options": {
+		"titles": {
+			"title": "Options",
+			"subtitle": "Une envie particulière ? Des options vous permettent d'ajuster précisément la réalisation de votre film."
+		},
+		"option": {
+			"name": ["Drone", "Heures supplémentaires", "Discours en HQ (mp3)", "Interview des invités" ],
+			"price": ["200 €", "100 €", "150 €", "250 €"]
+		}
+	}
+
+}
